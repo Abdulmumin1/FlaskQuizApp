@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Quix{% endblock %}
+
+{% block content %}
+<div class="container border shadow-lg rounded-3 w-100 p-3 mt-5 bg-body">
+	
+	<form method="POST">
+		<input type="input" name="namefield" placeholder="Enter username" class="form-control mb-3" required="true">
+		<input type="submit" value="Play ▶" class="btn btn-info w-100">
+	</form>
+</div>
+
+{% endblock %}
